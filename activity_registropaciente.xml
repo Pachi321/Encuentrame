@@ -1,0 +1,66 @@
+i<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xml:app="http://schemas.android.com/apk/res-auto"
+    xml:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registro Paciente"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        />
+
+
+    <EditText
+        android:id="@+id/et_al"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Alias"
+        android:inputType="text"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sexo"
+        android:layout_gravity="left"
+        android:textSize="25sp"
+        />
+
+
+    <RadioGroup
+        android:id="@+id/rb_rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <RadioButton
+
+        android:id="@+id/rb_chek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="F" />
+
+    <RadioButton
+        android:id="@+id/rb_rm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="M" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/bt_reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrar"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>
+

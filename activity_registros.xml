@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xml:app="http://schemas.android.com/apk/res-auto"
+    xml:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registro Paciente"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        />
+
+
+    <Button
+        android:id="@+id/btn_regpa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrar Paciente"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btn_delpa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Elimina Paciente"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btn_lookgps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ver Ubicacion"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btn_setingconf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Configurar / Modificar Perimetro"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>
